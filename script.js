@@ -1,5 +1,5 @@
-var paramChat;
-paramChat = window.location.href;
+var paramChat = window.location.href;
+console.log(paramChat);
 let cronchatToken = '5203171793:AAFWMcOzQaKHbVKft3QN3ndbcNYyLlgDEIo';
 let hostURL = 'https://cronchatcronapp.cronapp.io/get-chat?token=';
 let chatbotURL = `${hostURL}${cronchatToken}&extraparam=${paramChat}`;
