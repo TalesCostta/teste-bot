@@ -1,6 +1,6 @@
 var paramChat = window.location.href;
 console.log(paramChat);
-var paramChatAlterado = paramChat.replaceAll('.', '$pontoBot$').replaceAll('/','$barraBot$').replaceAll('&','$comercialBot$').replaceAll('=','$igualBot$').replaceAll(',','$virgulaBot$').replaceAll(':','$doispontosBot$');
+var paramChatAlterado = paramChat.replaceAll('.', '_pontoBot_').replaceAll('/','_barraBot_').replaceAll('&','_comercialBot_').replaceAll('=','_igualBot_').replaceAll(',','_virgulaBot_').replaceAll(':','_doispontosBot_');
 console.log(paramChatAlterado);
 let cronchatToken = '5203171793:AAFWMcOzQaKHbVKft3QN3ndbcNYyLlgDEIo';
 let hostURL = 'https://cronchatcronapp.cronapp.io/get-chat?token=';
