@@ -1,6 +1,6 @@
 var paramChat = window.location.href;
 console.log(paramChat);
-paramChat.replace('$pontoBot$', '.');
+paramChat.replaceAll('$pontoBot$', '.');
 console.log(paramChat);
 let cronchatToken = '5203171793:AAFWMcOzQaKHbVKft3QN3ndbcNYyLlgDEIo';
 let hostURL = 'https://cronchatcronapp.cronapp.io/get-chat?token=';
