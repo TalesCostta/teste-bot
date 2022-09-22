@@ -7,6 +7,9 @@ let hostURL = 'https://cronchatcronapp.cronapp.io/get-chat?token=';
 let chatbotURL = `${hostURL}${cronchatToken}&extraparam=${paramChatAlterado}`;
 console.log(chatbotURL);
 let scriptHTML = document.createElement("script");
+console.log("10");
 scriptHTML.src = chatbotURL;
 scriptHTML.type = 'text/javascript'
+console.log("13");
 document.body.appendChild(scriptHTML);
+console.log("15");
